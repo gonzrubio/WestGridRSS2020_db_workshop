@@ -1,0 +1,25 @@
+June 8, 2018
+Wolfgang Richter, IT Services SFU
+-----
+
+Origin of the downloaded data:
+
+https://www.maxmind.com/en/free-world-cities-database
+
+"This database contains duplicate and incorrect entries. It is provided
+ as-is, and we are unable to provide support for it."
+
+From the downloaded comma delimited data, I extracted the entries for
+Canada and replaced accented characters to provide a simple set of
+around 5500 records to upload into a table
+
+------
+The following are the fields of information:
+
+Country Code
+ASCII City Name
+City Name
+Region
+Population
+Latitude (The approximate latitude of the postal code, city, subdivision or country associated with the IP address.*)
+Longitude (The approximate latitude of the postal code, city, subdivision or country associated with the IP address.*)
