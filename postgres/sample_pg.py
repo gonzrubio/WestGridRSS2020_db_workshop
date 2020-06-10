@@ -17,8 +17,6 @@ print("user:" + user)
 print("database:" + database)
  
 try:
-    #- con = psycopg2.connect("host='localhost' dbname='testdb' user='pythonspot' password='password'")   
-    #con = psycopg2.connect("host='cedar-pgsql-vm.int.cedar.computecanada.ca' dbname='db_wolfgang' user='wolfgang' password='password'")   
     con = psycopg2.connect("host='cedar-pgsql-vm.int.cedar.computecanada.ca' dbname='" + database + "' user='" + user + "'")   
     cur = con.cursor()
     cur.execute("select city,population from canada_city where population>100000 order by population desc")
