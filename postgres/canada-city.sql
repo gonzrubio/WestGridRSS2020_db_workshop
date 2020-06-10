@@ -11,7 +11,6 @@ create table canada_city (
 );
 
 -- upload comma delimited data
--- \copy canada_city FROM './sample.txt' WITH (FORMAT csv);
 \copy canada_city FROM './canada-city.txt' WITH (FORMAT csv);
 
 -- verification
