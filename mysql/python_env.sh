@@ -1,4 +1,3 @@
 virtualenv ~/python
-source ~/python/bin/activate
+source venv/bin/activate
 pip install MySQL-python
-pip install psycopg2

@@ -3,4 +3,4 @@
 #SBATCH --job-name=test_pg
 #SBATCH --output=%x-%j.out
 source venv/bin/activate
-python sample_mysql.py
+python sample_mysql.py > output.txt
